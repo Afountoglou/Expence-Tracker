@@ -2334,24 +2334,24 @@
           }
         }
       },
-      "Syncfusion.EJ2.AspNet.Core/22.1.38": {
+      "Syncfusion.EJ2.AspNet.Core/23.1.42": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.2",
-          "Syncfusion.Licensing": "22.1.38"
+          "Syncfusion.Licensing": "23.1.42"
         },
         "compile": {
-          "lib/netstandard2.1/Syncfusion.EJ2.dll": {
+          "lib/net7.0/Syncfusion.EJ2.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/Syncfusion.EJ2.dll": {
+          "lib/net7.0/Syncfusion.EJ2.dll": {
             "related": ".xml"
           }
         }
       },
-      "Syncfusion.Licensing/22.1.38": {
+      "Syncfusion.Licensing/23.1.42": {
         "type": "package",
         "compile": {
           "lib/net7.0/Syncfusion.Licensing.dll": {}
@@ -7385,32 +7385,35 @@
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
-    "Syncfusion.EJ2.AspNet.Core/22.1.38": {
-      "sha512": "y+hBS8jeBFS78ql5r2fdteUQSbHC45zvWdoMmJ4p56a4ZJkgdZwySbd2HEgCwhatBo4N1eNsIjoz2m4/sULM8w==",
+    "Syncfusion.EJ2.AspNet.Core/23.1.42": {
+      "sha512": "cRfAqMQiPZkIdi4+t4iELHbOka3azCHlNEpP/72JeIvpntLHhHMvgYsqUjH2CwL/bZOf560bLf7BcAxskl+82Q==",
       "type": "package",
-      "path": "syncfusion.ej2.aspnet.core/22.1.38",
+      "path": "syncfusion.ej2.aspnet.core/23.1.42",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.txt",
         "README.md",
+        "lib/net7.0/Syncfusion.EJ2.dll",
+        "lib/net7.0/Syncfusion.EJ2.xml",
         "lib/netstandard2.0/Syncfusion.EJ2.dll",
         "lib/netstandard2.0/Syncfusion.EJ2.xml",
         "lib/netstandard2.1/Syncfusion.EJ2.dll",
         "lib/netstandard2.1/Syncfusion.EJ2.xml",
-        "syncfusion.ej2.aspnet.core.22.1.38.nupkg.sha512",
+        "syncfusion.ej2.aspnet.core.23.1.42.nupkg.sha512",
         "syncfusion.ej2.aspnet.core.nuspec",
         "syncfusion_logo.png"
       ]
     },
-    "Syncfusion.Licensing/22.1.38": {
-      "sha512": "3JldUCenktIE4oxc6EXPgspzVoDCGADELefbOz9TqjhEtKM/hyj1Ll60wwbVvWm+uVgnmsX9ZqVRYqrVcvSxAw==",
+    "Syncfusion.Licensing/23.1.42": {
+      "sha512": "1SYem8VeJAJw41vLx8sfc2gm8ooWhoOArrv+OTaXJrQLo1psu2SjubfxgpUTJdXUSD/POjkxAk4Xm6kuk8sqQg==",
       "type": "package",
-      "path": "syncfusion.licensing/22.1.38",
+      "path": "syncfusion.licensing/23.1.42",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.txt",
+        "README.md",
         "lib/MonoAndroid90/Syncfusion.Licensing.dll",
         "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
         "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
@@ -7422,7 +7425,7 @@
         "lib/net7.0/Syncfusion.Licensing.dll",
         "lib/netstandard2.0/Syncfusion.Licensing.dll",
         "lib/uap10.0/Syncfusion.Licensing.dll",
-        "syncfusion.licensing.22.1.38.nupkg.sha512",
+        "syncfusion.licensing.23.1.42.nupkg.sha512",
         "syncfusion.licensing.nuspec",
         "syncfusion_logo.png"
       ]
@@ -11404,7 +11407,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.9",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.9",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.8",
-      "Syncfusion.EJ2.AspNet.Core >= 22.1.38"
+      "Syncfusion.EJ2.AspNet.Core >= 23.1.42"
     ]
   },
   "packageFolders": {
@@ -11413,11 +11416,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User1\\Desktop\\ExpenseTracker\\Expense Tracker\\Expense Tracker.csproj",
+      "projectUniqueName": "C:\\Users\\User1\\Desktop\\expense\\Expense Tracker\\Expense Tracker.csproj",
       "projectName": "Expense Tracker",
-      "projectPath": "C:\\Users\\User1\\Desktop\\ExpenseTracker\\Expense Tracker\\Expense Tracker.csproj",
+      "projectPath": "C:\\Users\\User1\\Desktop\\expense\\Expense Tracker\\Expense Tracker.csproj",
       "packagesPath": "C:\\Users\\User1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User1\\Desktop\\ExpenseTracker\\Expense Tracker\\obj\\",
+      "outputPath": "C:\\Users\\User1\\Desktop\\expense\\Expense Tracker\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11428,7 +11431,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.310\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11467,7 +11470,7 @@
           },
           "Syncfusion.EJ2.AspNet.Core": {
             "target": "Package",
-            "version": "[22.1.38, )"
+            "version": "[23.1.42, )"
           }
         },
         "imports": [
@@ -11489,7 +11492,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.310\\RuntimeIdentifierGraph.json"
       }
     }
   }
