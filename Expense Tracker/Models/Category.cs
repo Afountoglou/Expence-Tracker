@@ -11,6 +11,7 @@ namespace Expense_Tracker.Models
 
         [Column(TypeName = "nvarchar(50)")]
         public string Title { get; set; }
+        [Required(ErrorMessage = "Title is required.")]
 
         [Column(TypeName = "nvarchar(5)")]
         public string Icon { get; set; } = "";
